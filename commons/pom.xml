@@ -8,14 +8,7 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-    <artifactId>merchant</artifactId>
-    <packaging>war</packaging>
-    <description>微信小店</description>
-
-    <dependencies>
-        <dependency>
-            <groupId>cn.howardliu</groupId>
-            <artifactId>http-client-simple</artifactId>
-        </dependency>
-    </dependencies>
+    <artifactId>commons</artifactId>
+    <packaging>jar</packaging>
+    <description>公共模块</description>
 </project>

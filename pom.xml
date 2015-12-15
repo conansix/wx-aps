@@ -8,6 +8,7 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>merchant</module>
+        <module>commons</module>
     </modules>
     <packaging>pom</packaging>
     <description>微信应用平台和应用系统</description>
@@ -28,6 +29,7 @@
         <dependency.logback.version>1.1.3</dependency.logback.version>
         <dependency.servlet-api.version>3.0.1</dependency.servlet-api.version>
         <dependency.validation-api.version>1.1.0.Final</dependency.validation-api.version>
+        <dependency.http-client-simple.version>1.0.0-SNAPSHOT</dependency.http-client-simple.version>
     </properties>
 
     <dependencies>
@@ -68,4 +70,13 @@
             <scope>compile</scope>
         </dependency>
     </dependencies>
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>cn.howardliu</groupId>
+                <artifactId>http-client-simple</artifactId>
+                <version>${dependency.http-client-simple.version}</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
 </project>
