@@ -6,9 +6,9 @@ package cn.howardliu.aps.wxaps.merchant.common;
  * @author liuxh
  * @since 1.0.0
  */
-public final class MerchantConstants {
-    private MerchantConstants() {
-        throw new AssertionError("No cn.howardliu.aps.wxaps.merchant.common.MerchantConstants instances for you!");
+public final class MerchantUrls {
+    private MerchantUrls() {
+        throw new AssertionError("No cn.howardliu.aps.wxaps.merchant.common.MerchantUrls.MerchantUrls instances for you!");
     }
 
     /**
