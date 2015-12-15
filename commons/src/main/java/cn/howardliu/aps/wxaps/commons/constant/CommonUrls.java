@@ -8,7 +8,7 @@ package cn.howardliu.aps.wxaps.commons.constant;
  */
 public final class CommonUrls {
     private CommonUrls() {
-        throw new AssertionError("No cn.howardliu.aps.wxaps.commons.constant.WxUrls instances for you!");
+        throw new AssertionError("No cn.howardliu.aps.wxaps.commons.constant.CommonUrls instances for you!");
     }
 
     /**
